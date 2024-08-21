@@ -6,5 +6,9 @@
    B. Elabore una algoritmo que calcule el promedio de las edades de esta ficha:
        guardar en segunda rama"""
        
-       
-print(**"MENU:\na)Jugar\nCalcular\nc)Salir")
+#A
+print("MENU:\na)Jugar\nCalcular\nc)Salir")
+
+#B
+edades= int((18*7)+(19*8)+24+26+17)
+print("El promedio de edades de esta ficha es", edades/18)
